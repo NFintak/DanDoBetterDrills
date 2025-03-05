@@ -31,7 +31,9 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Short add(short baseValue, short difference) {
-        return null;
+        Integer result = baseValue + difference;
+        return result.shortValue();
+        //return null;
     }
 
     /**
